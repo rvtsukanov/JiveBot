@@ -1,0 +1,7 @@
+Для добавления Flash-элемента на обзорную страницу группы или раздела нужно:   1) Зайти в настройки обзорной страницы группы/раздела и выбрать виджет HTML 2) В настройках виджета нажмите на "Управление файлами" и загрузите *.swf файл. 3) Скопируйте следующий код в область "Ваш HTML", заменив поля, выделенные красным исходя параметров ролика. <center><div style="width:150px;height:275px;overflow:hidden;" align="center">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%" id="swf_ID" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="wmode" value="opaque" />    
+<param name="movie" scrolling=no  value="/resources/statics/19801/fev.swf" />
+<embed src="/resources/statics/19801/fev.swf" menu="false" quality="best" scale="noborder" wmode="opaque" bgcolor="#ffffff" width="100%"  height="100%" name="swf_name" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />    </object></div></center>
+   Width: значение  - ширина Height: значение  - высота (Если вы хотите указать только одно значение, высоты или ширины, а второе было высчитано автоматически - впишите значение auto) Src="URL"  - адрес загруженного файла. Его можно скопировать в меню управление файлами.
